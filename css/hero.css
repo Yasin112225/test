@@ -1,0 +1,107 @@
+.box{
+    width: 270px;
+    background-color: #333333;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+.aks{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 36px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.TT{
+    width: 240px;
+    margin-top: 36px;
+}
+
+.TB1{
+   font-size: 20px;
+   color: #dec08e;
+}
+.TB2{
+    font-size: 16px;
+    color: #dec08e;
+}
+.price{
+    width: 100px;
+    height: 25px;
+    background-color: #dec08e;
+    border-radius: 12px;
+    margin-top: 32px;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.f{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* سه ستون */
+    gap: 10px;
+}
+.kk{
+    display: block;
+    max-width: 100%;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+    top: -2px;
+    right: -1px;
+}
+.kkk{
+    display: block;
+    max-width: 100%;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+    top: -68px;
+}
+.k{
+    display: block;
+    max-width: 100%;
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+    top: -43px;
+    right: -1px;
+}
+
+@media (max-width: 650px) {
+    .f {
+      grid-template-columns: repeat(1, 1fr); /* باکس‌ها زیر هم می‌روند */
+    }}
+
+
+@media (min-width: 650px) {
+    .f {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }}
+
+
+@media (min-width: 1020px) {
+    .f {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }}    
+
+
+
+@media (min-width: 1360px) {
+    .f {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+    }}      
