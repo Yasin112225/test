@@ -10,9 +10,6 @@
     text-align: center;
 }
 
-
-
-
 .aks{
     width: 200px;
     height: 200px;
@@ -32,10 +29,12 @@
    font-size: 20px;
    color: #dec08e;
 }
+
 .TB2{
     font-size: 16px;
     color: #dec08e;
 }
+
 .price{
     width: 100px;
     height: 25px;
@@ -47,11 +46,13 @@
     flex-direction: column;
     align-items: center;
 }
+
 .f{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* سه ستون */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 10px;
 }
+
 .kk{
     display: block;
     max-width: 100%;
@@ -61,6 +62,7 @@
     top: -2px;
     right: -1px;
 }
+
 .kkk{
     display: block;
     max-width: 100%;
@@ -69,6 +71,7 @@
     object-fit: cover;
     top: -68px;
 }
+
 .k{
     display: block;
     max-width: 100%;
@@ -81,7 +84,7 @@
 
 @media (max-width: 650px) {
     .f {
-      grid-template-columns: repeat(1, 1fr); /* باکس‌ها زیر هم می‌روند */
+      grid-template-columns: repeat(1, 1fr); 
     }}
 
 
@@ -97,7 +100,6 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
     }}    
-
 
 
 @media (min-width: 1360px) {

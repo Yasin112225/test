@@ -2,9 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
+
 body{
     background-color: #dbbd9b;
 }
+
 .x{
     display: flex;
     flex-direction: column;
@@ -21,46 +23,47 @@ body{
     margin-top: 35px;
     display: grid;
 }
+
 .c{
     color: black;
     font-size: 16px;
     margin-top: 10px;
 }
+
 .d{
     display: inline-block;
     
 }
+
 #ff{
     text-align: center;
     display: grid;
     flex-direction: column;
     align-items: center;
 }
+
 .reta{
     display: inline-block;
 }
+
 .copyrithlogo{
     width: 20px;
     height: 20px;
-    /* margin-right: 5px;
-    margin-top: 2px; */
 }
 
 a {
     text-decoration: none; 
     color: black; 
-  }
+}
 
 a:hover {
     text-decoration: underline; 
 }
 
-
 @media (max-width: 650px) {
     .copy {
       grid-template-columns: repeat(1, 2fr);
 }}
-
 
 @media (min-width: 650px) {
     .copy {
@@ -68,42 +71,30 @@ a:hover {
       gap: 6px;
 }}
 
-
 @media (min-width: 650px) {
     .d {
         margin-left: auto;
         margin-top: 5px;
     }
-    
     .c{
         margin-right: auto;
     }
-
 }
-
-
-
-  
-
-
-
 
 ::-webkit-scrollbar {
     width: 12px !important;
     height: 10px;
-  }
+}
   
 ::-webkit-scrollbar-track {
     background: #dbbd9b !important;
-  }
+}
   
 ::-webkit-scrollbar-thumb {
     background: #3a3a3a !important;
     border-radius: 19px;
-  }
+}
   
 ::-webkit-scrollbar-thumb:hover {
     background: #555 !important;
-  }
-  
-  
+}  

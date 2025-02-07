@@ -4,6 +4,7 @@
     overflow: hidden;
     position: relative;
 }
+
 .textH{
     width: 300px;
     display: inline;
@@ -16,17 +17,20 @@
     backdrop-filter: blur(10px); 
     border-radius: 10px; 
 }
+
 .TH1{
     color: black;
     font-size: 16px;
     font-size: 30px;
 }
+
 .TH2{
     color: black;
     font-size: 10px;
     margin-top: 10px;
     font-size: 20px;
 }
+
 .hedimg{
     display: block;
     max-width: 100%;

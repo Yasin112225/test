@@ -5,6 +5,7 @@
     margin-top: 15px;
     border-radius: 50px 50px 0px 0px;
 }
+
 .map{
     width: 150px;
     height: 150px;
@@ -13,6 +14,7 @@
     margin-right: 11px;
     display: inline-block;
 }
+
 .h{
     width: 65px;
     height: 30px;
@@ -20,6 +22,7 @@
     margin-left: 20px;
     display: inline-block;
 }
+
 .textF{
     width: 100px;
     height: 30px;
@@ -27,10 +30,12 @@
     margin-top: 10px;
     margin-left: 20px;
 }
+
 .textfooter{
     float: left;
     margin-top: 104px;
 }
+
 .border{
     width: 33%;
     height: 33px;
@@ -41,6 +46,7 @@
     position: relative;
     margin-left: auto; 
 }
+
 .vv{
     max-width: 1440px;
     width: 56%;
@@ -51,6 +57,7 @@
     position: relative;
     border-radius: 0px 0px 50px 50px ;
 }
+
 .mm{
     width: 62%;
     height: 20px;
