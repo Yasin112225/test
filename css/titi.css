@@ -1,0 +1,15 @@
+.tt{
+    width: 100px;
+    height: 30px;
+    background-color: #333333;
+    margin-left: auto;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.titi{
+    color: #dec08e;
+}
