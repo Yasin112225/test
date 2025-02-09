@@ -8,8 +8,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 7px;
+    grid-column: 1 / -1;
+    
 }
+
+
 .titi{
     color: #dec08e;
 }
+
+@media (min-width: 425px) {
+    .tt {
+      margin-right: 60px;
+    }}
+
+
+@media (min-width: 1024px) {
+    .tt {
+        margin-right: 85px;
+    }}    

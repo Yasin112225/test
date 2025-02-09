@@ -24,9 +24,9 @@
       #000;
     filter: blur(4px) contrast(10);
     animation: l11 2s infinite;
-    left: -53px;
+    /* left: -53px;
     top: -20px;
-    position: relative;
+    position: relative; */
   }
   @keyframes l11 {
     0%   {background-position:0 0}
