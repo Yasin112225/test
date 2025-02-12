@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     z-index: 9999;
   }
 
@@ -39,7 +40,5 @@
 
 .mt{
     color: #fff;
-    top: 40px;
-    left: 44px;
-    position: relative;
+     margin-top: 10px;
 } 
