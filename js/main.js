@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
     // مدت زمان لودر (مثلاً 3 ثانیه)
-    var loaderTime = 10; // 3000 میلی‌ثانیه معادل 3 ثانیه
+    var loaderTime = 3000; // 3000 میلی‌ثانیه معادل 3 ثانیه
   
     // بعد از زمان مشخص شده، لودر را مخفی کن
     setTimeout(function() {
